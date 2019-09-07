@@ -10,6 +10,7 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1",
+    "styled-components": "^4.3.2",
     "typescript": "3.6.2"
   },
   "scripts": {
@@ -21,16 +22,43 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+  "prettier": {
+    "printWidth": 110,
+    "singleQuote": true,
+    "overrides": [
+      {
+        "files": "*.md",
+        "options": {
+          "parser": "markdown"
+        }
+      },
+      {
+        "files": "*.json",
+        "options": {
+          "parser": "json"
+        }
+      }
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "precise-commits"
+    }
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  },
+  "devDependencies": {
+    "@types/styled-components": "^4.1.18",
+    "@typescript-eslint/eslint-plugin": "^2.1.0",
+    "@typescript-eslint/parser": "^2.1.0",
+    "eslint": "^6.3.0",
+    "eslint-config-prettier": "^6.2.0",
+    "eslint-config-react-app": "^5.0.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "husky": "^3.0.5",
+    "precise-commits": "^1.0.2",
+    "prettier": "^1.18.2"
   }
 }
