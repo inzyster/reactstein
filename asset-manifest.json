@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/reactstein/static/css/main.6105d37f.chunk.css",
-    "main.js": "/reactstein/static/js/main.2d04001f.chunk.js",
-    "main.js.map": "/reactstein/static/js/main.2d04001f.chunk.js.map",
+    "main.css": "/reactstein/static/css/main.2a5a3ce7.chunk.css",
+    "main.js": "/reactstein/static/js/main.65d4ab19.chunk.js",
+    "main.js.map": "/reactstein/static/js/main.65d4ab19.chunk.js.map",
     "runtime~main.js": "/reactstein/static/js/runtime~main.09eb5c67.js",
     "runtime~main.js.map": "/reactstein/static/js/runtime~main.09eb5c67.js.map",
-    "static/js/2.1a048e47.chunk.js": "/reactstein/static/js/2.1a048e47.chunk.js",
-    "static/js/2.1a048e47.chunk.js.map": "/reactstein/static/js/2.1a048e47.chunk.js.map",
+    "static/js/2.fc26ba7c.chunk.js": "/reactstein/static/js/2.fc26ba7c.chunk.js",
+    "static/js/2.fc26ba7c.chunk.js.map": "/reactstein/static/js/2.fc26ba7c.chunk.js.map",
     "index.html": "/reactstein/index.html",
-    "precache-manifest.b96a45eed252c13f19e3462b64a34730.js": "/reactstein/precache-manifest.b96a45eed252c13f19e3462b64a34730.js",
+    "precache-manifest.cc0f4bcbb5105cac137b75c16d89a455.js": "/reactstein/precache-manifest.cc0f4bcbb5105cac137b75c16d89a455.js",
     "service-worker.js": "/reactstein/service-worker.js",
-    "static/css/main.6105d37f.chunk.css.map": "/reactstein/static/css/main.6105d37f.chunk.css.map",
-    "static/media/logo.svg": "/reactstein/static/media/logo.5d5d9eef.svg"
+    "static/css/main.2a5a3ce7.chunk.css.map": "/reactstein/static/css/main.2a5a3ce7.chunk.css.map"
   }
 }
