@@ -1,6 +1,83 @@
+:root {
+  --color-black: #000000;
+  --color-blue: #0000aa;
+  --color-green: #00aa00;
+  --color-cyan: #00aaaa;
+  --color-red: #aa0000;
+  --color-magenta: #aa00aa;
+  --color-brown: #aa5500;
+  --color-light-gray: #aaaaaa;
+  --color-dark-gray: #555555;
+  --color-bright-blue: #5555ff;
+  --color-bright-green: #55ff55;
+  --color-bright-cyan: #55ffff;
+  --color-bright-red: #ff5555;
+  --color-bright-magenta: #ff55ff;
+  --color-bright-yellow: #ffff55;
+  --color-white: #ffffff;
+}
+
+.root {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+    '. . .'
+    '. a .'
+    '. . .';
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: 1fr auto 1fr;
+}
+
 .App {
   text-align: center;
   width: 1280px;
-  height: 800px;
+  height: 688px;
+  grid-area: a;
 }
 
+.loader {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.renderer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  .ceiling {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50%;
+    background-color: var(--color-dark-gray);
+  }
+
+  .floor {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50%;
+    background-color: var(--color-light-gray);
+  }
+
+  .walls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+  }
+}
